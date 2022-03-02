@@ -1,0 +1,116 @@
+<link href="static/style.css" rel="stylesheet" type="text/css" />
+
+<html>
+    <audio autoplay>
+    <source src="static/voice3.mp3" type="audio/mpeg"> 
+  </audio>
+  <head>
+    <title>Spin to Win</title>
+   
+  </head>
+  <body> 
+  <style>
+          @keyframes spin {
+from {transform: rotate(0deg);}
+to {transform: rotate({{degree}}deg);}
+}
+  </style>
+
+  <div id="mainbox" class="mainbox">
+    <div>
+      <form action="/button" method="post">
+        <button id='spinner'class="spinbutton" type="submit" >Obtenez Votre Code Promo</button>
+    </form>
+    <div id="box" class="box" style="
+
+
+animation-name: spin;
+animation-duration: 3s;
+animation-timing-function: ease-out;
+animation-fill-mode: both;
+
+    ">
+      <div class="box1">
+        <span class="span1" style="
+        background-color: #CC0122; 
+        "><b>
+          <img src="static/gift.png" alt="" style="
+          width: 150px;
+          height: 100px;
+          margin-right: -100px;
+          transform:rotate(100deg);
+          ">
+        </b></span>
+        <span class="span2" style="background-color: #670011;"><b>
+          
+          <img src="static/gift.png" alt="" style="
+          width: 150px;
+          height: 100px;
+          margin-right: -100px;
+          transform:rotate(100deg);
+          ">
+        </b></span>
+        <span class="span3" style="background-color: #ED1948;"><b>
+          
+          <img src="static/gift.png" alt="" style="
+          width: 150px;
+          height: 100px;
+          margin-right: -100px;
+          transform:rotate(100deg);
+          ">
+        </b></span>
+        <span class="span4" style="background-color: #D40224;"><b>
+          
+          <img src="static/gift.png" alt="" style="
+          width: 150px;
+          height: 100px;
+          margin-right: -100px;
+          transform:rotate(90deg);
+          ">
+        </b></span>
+      </div>
+      <div class="box2">
+        <span class="span1" style="background-color: #e290a2;"><b>
+          <img src="static/gift.png" alt="" style="
+          width: 150px;
+          height: 100px;
+          margin-right: -100px;
+          transform:rotate(100deg);
+          "></b></span>
+        <span class="span2" style="background-color: #9F1D27;"><b>
+          
+          <img src="static/gift.png" alt="" style="
+          width: 150px;
+          height: 100px;
+          margin-right: -100px;
+          transform:rotate(100deg);
+          ">
+        </b></span>
+        <span class="span3" style="background-color: #ED1948;"><b>
+          
+          <img src="static/gift.png" alt="" style="
+          width: 150px;
+          height: 100px;
+          margin-right: -100px;
+          transform:rotate(100deg);
+          ">
+        </b></span>
+        <span class="span4" style="background-color: #F20128;"><b>
+          
+          <img src="static/gift.png" alt="" style="
+          width: 150px;
+          height: 100px;
+          margin-right: -100px;
+          transform:rotate(100deg);
+          ">
+        </b></span>
+      </div>
+      <div>
+        <img src="static/logo.png" alt="" class="spin" style="pointer-events: none;">
+      </div>
+    </div> 
+    
+    
+  </div>
+  </body>
+</html>
